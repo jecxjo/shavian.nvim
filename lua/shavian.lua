@@ -40,16 +40,13 @@ local function set_shavian()
 end
 
 local function reset_mappings()
-    h.api.nvim_command("set langmap=")
+    for key, _ in pairs(shavian_mapings) do
+        h.api.nvim_del_keymap("i", key)
+    end
 end
 
 local function toggle_shavian_mode()
     h.g.shavian_mode_enabled = not h.g.shavian_mode_enabled
-    if h.g.shavian_mode_enabled then
-        set_shavian()
-    else
-        reset_mappings()
-    end
 end
 
 h.api.nvim_create_user_command("ToggleShavianMode", toggle_shavian_mode, { desc = "Toggle Shavian mode" })
