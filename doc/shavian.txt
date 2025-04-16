@@ -1,0 +1,66 @@
+*shavian.nvim*                     *ToggleShavianMode*
+
+==============================================================================
+INTRODUCTION                                                        *shavian*
+
+The Shavian input plugin allows you to type in Shavian script using a QWERTY
+keyboard layout. The plugin provides a command to toggle Shavian input mode
+on or off. It works exclusively in insert mode.
+
+For more information about the QWERTY layout used, visit:
+    https://shavian.info
+
+==============================================================================
+COMMANDS                                                            *shavian-commands*
+
+                                                        *:ToggleShavianMode*
+:ToggleShavianMode
+    Toggles Shavian input mode on or off. When enabled, typing in insert mode
+    will map QWERTY keys to their corresponding Shavian characters.
+
+==============================================================================
+KEYMAPS                                                             *shavian-keymaps*
+
+The following key mappings are used in Shavian input mode:
+
+    QWERTY Key   Shavian Character
+    --------------------------------
+    q            𐑶    Q            𐑬
+    w            𐑢    W            𐑾
+    e            𐑧    E            𐑱
+    r            𐑮    R            𐑸
+    t            𐑑    T            𐑔
+    y            𐑭    Y            𐑷
+    u            𐑳    U            𐑫
+    i            𐑦    I            𐑰
+    o            𐑪    O            𐑴
+    p            𐑐    P            𐑹
+    a            𐑩    A            𐑨
+    s            𐑕    S            𐑖
+    d            𐑛    D            𐑽
+    f            𐑓    F            𐑲
+    g            𐑜    G            ∙
+    h            𐑣    H            𐑞
+    j            𐑘    J            𐑡
+    k            𐑒    K            «
+    l            𐑤    L            »
+    z            𐑟    Z            𐑠
+    x            𐑻    X            𐑺
+    c            𐑗    C            𐑽
+    v            𐑝    V            𐑿
+    b            𐑚    B            ∘
+    n            𐑯    N            𐑙
+    m            𐑥    M            𐑵
+
+==============================================================================
+AUTHOR                                                              *shavian-author*
+
+This plugin was created to simplify typing in Shavian script using a standard
+QWERTY keyboard layout.
+
+==============================================================================
+COPYRIGHT                                                           *shavian-copyright*
+
+This plugin is open-source and distributed under the Unlicensed license. Just
+use it.
+
